@@ -246,6 +246,7 @@ body{
 .menu .lisc1{
     position: absolute;
     right: 0%;
+    z-index: 1;
     
 
 
@@ -254,6 +255,7 @@ body{
     position: absolute;
     left: 0%;
     top: 220%;
+    z-index: 1;
     
 }
 .heading{
@@ -698,18 +700,30 @@ iframe{
   .home-text-child h3{
     font-size: 3rem;
   }
+  .menu .lisc1{
+    width: 20%;
+  }
+  .menu .lisc2{
+    width: 10%;
+  }
 
 }
 @media only screen and (max-width: 480px) {
     .home-text-child h1{
-        font-size: 3rem;
+        font-size: 2rem;
         right: 20%;
       }
       .home-text-child h2{
-        font-size: 2.2rem;
+        font-size: 1.82rem;
         right: 20%;
       }
       .home-text-child h3{
-        font-size: 3rem;
+        font-size: 2rem;
+      }
+      .menu .lisc1{
+        width: 30%;
+      }
+      .menu .lisc2{
+        width: 50%;
       }
 }}
