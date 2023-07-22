@@ -526,8 +526,16 @@ iframe{
         --big-font: 3.5rem;
         --h2-font: 2rem;
     }
+
   }
-  @media only screen and (max-width: 1140px) {
+  @media (max-width: 1140px) {
+    .menu .lisc1{
+        width: 20%;
+      }
+      .menu .lisc2{
+        width: 10%;
+      }
+    
     section{
         padding: 50px 8%;
     }
@@ -587,14 +595,16 @@ iframe{
         
   }
   .home-text-child h1{
-    bottom: 25%;
+    bottom: 17%;
     right: 30%;
+    padding: 5px;
   }
   .home-text-child h2{
     right: 24%;
   }
   .home-text-child h3{
     right: 45%;
+    bottom: 3%;
   }
   .reservation form .inputBox .btn{
     width: 35%;
@@ -602,7 +612,14 @@ iframe{
   
   }
 
-  @media only screen and (max-width: 720px) {
+  @media (max-width: 720px) {
+    .menu .lisc1{
+        width: 10%;
+      }
+      .menu .lisc2{
+        width: 10%;
+      }
+    
     header{
         padding: 10px 16px;
     }
@@ -650,7 +667,14 @@ iframe{
   }
 
   }
-  @media only screen and (max-width: 680px) {
+  @media (max-width: 680px) {
+    .menu .lisc1{
+        width: 5%;
+      }
+      .menu .lisc2{
+        width: 5%;
+      }
+    
     .col{
         width: 100%;
     }
@@ -676,7 +700,14 @@ iframe{
   }
   }
 
-  @media only screen and (max-width: 575px) {
+  @media (max-width: 575px) {
+    .menu .lisc1{
+        width: 20%;
+      }
+      .menu .lisc2{
+        width: 10%;
+      }
+    
     .col{
         width: 100%;
     }
@@ -711,19 +742,39 @@ iframe{
 @media only screen and (max-width: 480px) {
     .home-text-child h1{
         font-size: 2rem;
-        right: 20%;
+        right: 21%;
+        top: 90%;
       }
       .home-text-child h2{
         font-size: 1.82rem;
-        right: 20%;
+        right: 15%;
+        top: 95%;
       }
       .home-text-child h3{
         font-size: 2rem;
+        top: 103%;
+        right: 45%;
       }
       .menu .lisc1{
-        width: 30%;
+        width: 10%;
       }
       .menu .lisc2{
-        width: 50%;
+        width: 10%;
       }
+      .cta .btn{
+        width: 70%;
+        height: 100%;
+    
+    }
+    .menu .menu-silder .slide{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .box-img{
+        position: relative;
+        width: 70%;
+        margin-bottom: 15px;
+        margin-left: 17%;
+    }
+
 }}
