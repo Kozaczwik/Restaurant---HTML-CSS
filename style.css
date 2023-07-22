@@ -525,7 +525,7 @@ iframe{
         --h2-font: 2rem;
     }
   }
-  @media(max-width: 1140px) {
+  @media only screen and (max-width: 1140px) {
     section{
         padding: 50px 8%;
     }
@@ -564,12 +564,15 @@ iframe{
 
     }
     iframe{
-        width: 70%;
+        position: relative;
+        width: 150%;
+        margin-left: -20%;
+
 
     }
     .cta h2{
-        width: 50%;
-        margin-left: 25%;
+        width: 90%;
+        margin-left: 7%;
         
     }
     .cta a{
@@ -597,7 +600,7 @@ iframe{
   
   }
 
-  @media (max-width: 720px) {
+  @media only screen and (max-width: 720px) {
     header{
         padding: 10px 16px;
     }
@@ -645,7 +648,7 @@ iframe{
   }
 
   }
-  @media (max-width: 575px) {
+  @media only screen and (max-width: 680px) {
     .col{
         width: 100%;
     }
@@ -669,4 +672,44 @@ iframe{
   .home-text-child h3{
     font-size: 3rem;
   }
+  }
+
+  @media only screen and (max-width: 575px) {
+    .col{
+        width: 100%;
+    }
+    .reservation form .inputBox .btn{
+        width: 50%;
+        margin-top: 10%;
+      
+      }
+      .reservation form{
+        width: 100%;
+ 
+  }
+  .home-text-child h1{
+    font-size: 3rem;
+    right: 20%;
+  }
+  .home-text-child h2{
+    font-size: 2.2rem;
+    right: 20%;
+  }
+  .home-text-child h3{
+    font-size: 3rem;
+  }
+
+}
+@media only screen and (max-width: 480px) {
+    .home-text-child h1{
+        font-size: 3rem;
+        right: 20%;
+      }
+      .home-text-child h2{
+        font-size: 2.2rem;
+        right: 20%;
+      }
+      .home-text-child h3{
+        font-size: 3rem;
+      }
 }}
